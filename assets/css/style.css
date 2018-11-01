@@ -1,0 +1,97 @@
+/* colors: https://material.io/design/color/#tools-for-picking-colors */
+* {box-sizing: border-box;}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 15px;
+}
+
+p,
+div,
+form,
+label,
+input,
+select,
+textarea {
+    width: 100%;
+    display: block;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #BDBDBD;
+}
+
+input,
+textarea,
+option {
+    padding: 5px;
+}
+
+.spacer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.col,
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.console {
+    color: #76FF03;
+    padding: 15px;
+    background: #212121;
+    font-family: monospace;
+}
+
+.loader {
+    display: none;
+}
+
+.loader .icon {
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.loading > .loader {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.65);
+}
